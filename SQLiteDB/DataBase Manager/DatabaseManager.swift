@@ -124,7 +124,7 @@ class DBHelper{
     }//deleteUser func end
     
     //
-    //MARK: emptyDataBase
+    //MARK: displayUsers
     //
     typealias emptyDataBase = (_ msg: String, _ title: String) -> Void
     func displayUsers(failureClosure: emptyDataBase) -> [User]? {

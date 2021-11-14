@@ -61,12 +61,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		04872D52272540C900B2DF81 /* Modals */ = {
+		04872D52272540C900B2DF81 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				04E155872712D61600FB3A04 /* UserModal.swift */,
 			);
-			path = Modals;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		04872D53272540D500B2DF81 /* DataBase Manager */ = {
@@ -118,7 +118,7 @@
 			children = (
 				04E1556A2712CFD600FB3A04 /* SceneDelegate.swift */,
 				04E155682712CFD600FB3A04 /* AppDelegate.swift */,
-				04872D52272540C900B2DF81 /* Modals */,
+				04872D52272540C900B2DF81 /* Model */,
 				04872D53272540D500B2DF81 /* DataBase Manager */,
 				04872D562725410B00B2DF81 /* Cells */,
 				04872D51272540AB00B2DF81 /* Resources */,
