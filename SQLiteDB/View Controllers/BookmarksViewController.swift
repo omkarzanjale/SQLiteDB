@@ -19,6 +19,8 @@ class BookmarksViewController: UIViewController {
         tableView.delegate = self
         let nibFile = UINib(nibName: "UsersCell", bundle: Bundle.main)
         tableView.register(nibFile, forCellReuseIdentifier: "UsersCell")
+        self.tableView.estimatedRowHeight = 150
+        self.tableView.rowHeight = UITableView.automaticDimension
     }
 }
 //
@@ -46,7 +48,7 @@ extension BookmarksViewController:UITableViewDataSource{
 //
 extension BookmarksViewController:UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        220
+        return 150
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
